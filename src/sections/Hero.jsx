@@ -1,4 +1,5 @@
 import { words } from '../constants/words.js';
+import Button from '../components/Button.jsx';
 
 const Hero = () => {
     return (
@@ -31,6 +32,8 @@ const Hero = () => {
                     <p>
                         Hi, I am Kartavya Shrivastav, a developer based in India with a passion for building impactful digital experiences. I specialize in crafting modern web applications that blend creativity with functionality.
                     </p>
+
+                    <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
                 </div>
             </header>
             </div>
