@@ -1,6 +1,5 @@
+import { words } from '../constants/words.js';
 
-
-import React from 'react';
 const Hero = () => {
     return (
         <section id='hero' className="relative overflow-hidden" >
@@ -14,11 +13,24 @@ const Hero = () => {
                 <div className='flex flex-col gap-7'>
                     <div className='hero-text'>
                         <h1>Shaping 
-                            
+                            <span className='slide'>
+                                <span className='wrapper'>
+                                    {words.map((word) => (
+                                            <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
+                                                <img src={word.imgPath} alt={word.text} className='xl:size-12 md:size-10 size-7 md:pd-2 p-1 rounded-full bg-white-50'/>
+                                                <span>{word.text}</span>
+                                            </span>
+                                    ))}
+                                </span>
+                            </span>
                         </h1>
                         <h1>into Real Project</h1>
                         <h1>that Deliver Results</h1>
                     </div>
+
+                    <p>
+                        Hi, I am Kartavya Shrivastav, a developer based in India with a passion for building impactful digital experiences. I specialize in crafting modern web applications that blend creativity with functionality.
+                    </p>
                 </div>
             </header>
             </div>
