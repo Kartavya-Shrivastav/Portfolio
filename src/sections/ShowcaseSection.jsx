@@ -62,7 +62,7 @@ const ShowcaseSection = () => {
           </div>
 
           {/* Right */}
-          <div className='project-list-wrapper overflow-hidden'>
+          <div className="project-list-wrapper overflow-hidden">
 
             <div className='project' ref={project2Ref}>
               <div className='image-wrapper bg-[#ffefdb]'>
