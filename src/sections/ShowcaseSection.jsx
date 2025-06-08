@@ -19,7 +19,7 @@ const ShowcaseSection = () => {
       gsap.fromTo(
         project,
         { opacity: 0, y: 50},
-        { opacity: 1, y: 0, duration: 1, delay: 0.3 * (index+1), scrollTrigger: {
+        { opacity: 1, y: 0, duration: 1, delay: 0.25 * (index+1), scrollTrigger: {
             trigger: project,
             start: 'top bottom-=100'
           }
