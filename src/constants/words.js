@@ -191,7 +191,7 @@ const expLogos = [
     },
     {
         name: "logo2",
-        imgPath: "/images/logo2.png",
+        imgPath: "../public/images/logo2.png",
     },
     {
         name: "logo3",
