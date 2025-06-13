@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.jsx';
 import LogoMarque from "./sections/LogoMarque.jsx";
 import FeatureCards from "./sections/FeatureCards.jsx";
 import ExperienceSection from './sections/ExperienceSection.jsx';
+import TechStack from './sections/TechStack.jsx';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <LogoMarque />
             <FeatureCards />
             <ExperienceSection />
+            <TechStack />
         </>
     );
 };
